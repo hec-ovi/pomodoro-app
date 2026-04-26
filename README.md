@@ -1,4 +1,20 @@
-# Pomodoro App
+<h1 align="center">pomodoro-app</h1>
+
+<p align="center">
+  <strong>Pomodoro task tracker in React: 4-session focus + break timer, dynamic categories and projects, calendar view, persistent localStorage, audio cues. ~50 modular components.</strong>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Working-brightgreen" alt="Status" />
+  <img src="https://img.shields.io/badge/React-149ECA?logo=react&logoColor=111111" alt="React" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/License-MIT-blue" alt="License" />
+</p>
+
+---
+
+## What this is
 
 **Pomodoro App** is a highly modularized Pomodoro tracking system that helps users maintain focus and track tasks efficiently. It offers robust functionality, including task management, Pomodoro session tracking, and dynamic categorization.
 
@@ -39,7 +55,7 @@ This project requires [Node.js](https://nodejs.org) and `npm`.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/hector-oviedo/pomodoro-app
+   git clone https://github.com/hec-ovi/pomodoro-app
    cd pomodoro-app
    ```
 
@@ -159,5 +175,6 @@ Some screenshots of the App:
 
 ## License
 
-Contributions are welcome! Please fork the repository, create a feature branch, and submit a pull request for review.
-Feel free to clone, modify and distribute this repo.
+[MIT](LICENSE) for original code in this repository (React + Vite source under src/, Dockerfile, helper scripts). Third-party libraries pulled at runtime (React, Vite, etc.) retain their own upstream licenses.
+
+Contributions are welcome. Please fork the repository, create a feature branch, and submit a pull request for review.
